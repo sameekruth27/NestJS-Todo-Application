@@ -6,7 +6,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello1(): string {
+  getHello(): string {
     return `Hello from Todo REST API!`;
   }
 }
